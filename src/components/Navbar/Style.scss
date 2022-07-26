@@ -1,0 +1,51 @@
+.nav {
+    width: 100%;
+    display: flex;
+    background-color: white;
+    background-image: none;
+    
+
+     p {
+        background-image: none;
+        
+        font-family: 'Belleza';
+        font-size: 21.29px;
+        margin: 1.5vw;
+        cursor: pointer;
+        > img {
+            margin: 0;
+            padding: 0;
+        }
+
+    }
+    
+    ul{
+        display: flex;
+        margin: 0 auto;
+    }
+    li {
+        margin: auto 20px;
+        font-size: 16px;
+        
+
+        > button {
+            font-family: 'Quicksand';
+            background: none;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            cursor: pointer;
+            &:hover, &:focus {
+                text-decoration: underline;
+            }
+        }
+        
+    }
+
+    img {
+        background-image: none;
+        margin: 0 1vw;
+        cursor: pointer;
+    }
+}
+

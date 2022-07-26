@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../components/Section/assets/background.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+ul, ol, li {
+    background-image: none;
+    list-style: none;
+}
