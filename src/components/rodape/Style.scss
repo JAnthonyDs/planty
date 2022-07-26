@@ -6,6 +6,26 @@
     position: absolute;
     bottom: 0;
 
+    .first {
+        background-image: none;
+        display: flex;
+        button {
+            width: 134px;
+            
+            background-image: none;
+            margin-left: 200px;
+            margin-right: 84px;
+            margin-top: 67px;
+            padding: 15px 29px;
+            background-color: #010101;
+            color: white;
+            justify-content: center;
+            border-radius: 40px;
+            cursor: pointer;
+
+        }
+    }
+
     p {
         background-image: none;
         font-size: 20px;
@@ -15,5 +35,32 @@
         margin-left: 93px;
         max-width: 12vw;
         
+    }
+
+    small {
+        background-image: none;
+        font-size: 16px;
+        margin-top: 51px;
+        margin-left: 93px;
+        opacity: 0.6;
+        position: absolute;
+        
+        font-family: 'Belleza';
+        
+    }
+
+    .endtext{
+        display: flex;
+        background-image: none;
+        margin-top: 61px;
+        
+        
+        p {
+            font-size: 36px;
+            opacity: 0.5;
+            font-family: 'Lora';
+            font-style: normal;
+            font-weight: 900;
+        }
     }
 }
